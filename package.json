@@ -1,0 +1,55 @@
+{
+  "name": "skeletonix",
+  "version": "1.0.0",
+  "description": "Plug-and-play React Skeleton Loader for fast, smooth placeholders.",
+  "author": "Milad Joodi (https://www.linkedin.com/in/joodi/)",
+  "license": "MIT",
+  "main": "dist/index.js",
+  "module": "dist/index.mjs",
+  "types": "dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.mjs",
+      "require": "./dist/index.js"
+    },
+    "./styles.css": "./dist/skeleton.css"
+  },
+  "files": [
+    "dist"
+  ],
+  "sideEffects": [
+    "**/*.css"
+  ],
+  "scripts": {
+    "build": "tsup",
+    "dev": "tsup --watch",
+    "prepublishOnly": "npm run build"
+  },
+  "keywords": [
+    "react",
+    "skeleton",
+    "shimmer",
+    "loading",
+    "placeholder",
+    "nextjs",
+    "skeleton-loader",
+    "react-skeleton",
+    "skeletonix"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/miladjoodi/skeletonix"
+  },
+  "homepage": "https://github.com/miladjoodi/skeletonix#readme",
+  "peerDependencies": {
+    "react": ">=17.0.0",
+    "react-dom": ">=17.0.0"
+  },
+  "devDependencies": {
+    "@types/react": "^18.2.0",
+    "react": "^18.2.0",
+    "tsup": "^8.0.0",
+    "typescript": "^5.3.0"
+  }
+}
