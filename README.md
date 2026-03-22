@@ -1,4 +1,4 @@
-# skeletonix
+# Skeletonix
 
 **Plug-and-play React Skeleton Loader for fast, smooth placeholders.**
 
