@@ -1,6 +1,6 @@
 {
   "name": "skeletonix",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Plug-and-play React Skeleton Loader for fast, smooth placeholders.",
   "author": "Milad Joodi (https://www.linkedin.com/in/joodi/)",
   "license": "MIT",
@@ -39,9 +39,9 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/miladjoodi/skeletonix"
+    "url": "https://github.com/MiladJoodi/Skeletonix"
   },
-  "homepage": "https://github.com/miladjoodi/skeletonix#readme",
+  "homepage": "https://github.com/MiladJoodi/Skeletonix#readme",
   "peerDependencies": {
     "react": ">=17.0.0",
     "react-dom": ">=17.0.0"

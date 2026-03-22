@@ -4,6 +4,8 @@
 
 A tiny, fully typed shimmer component for React & Next.js. Zero config — just import and use.
 
+![skeletonix demo](https://raw.githubusercontent.com/MiladJoodi/Skeletonix/main/pubic/01.gif)
+
 ## Install
 
 ```bash
